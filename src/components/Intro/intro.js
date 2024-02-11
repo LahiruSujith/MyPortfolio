@@ -9,7 +9,7 @@ const Intro = () => {
      <section id="intro">
          <div className="introContent">
             <span className="hello">Hello,</span>
-            <span className="introText">I'm <span className="introName">Lahiru Sujith</span><br /> Website Designer</span>
+            <span className="introText">I'm <span className="introName">Lahiru Sujith</span><br /> Website Developer</span>
             <p className="introPara">I am undergraduate student of University of vavuniya.
                 I'm well-versed in Programming Languages, Technologies and continuously stay abreast of industry trends.
                 Becoming skilled in Software Development, and I'm already 1+ year deep in crafting solutions with React.js, 
