@@ -1,7 +1,7 @@
 .navbar{
     background: rgb(30,30,30);
     height: 5rem;
-    width: 100vw;
+    width: 120vw;
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 3rem;
@@ -52,4 +52,47 @@
     height: 1rem;
     width: 1rem;
     margin: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem; 
+    }
+
+    .desktopMenuListItem {
+        display: none; 
+    }
+
+    .logo {
+        max-width: 100%; 
+    }
+
+    .mobileMenuIcon {
+        display: block; 
+    }
+
+    .mobileMenu {
+        display: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desktopMenuButton {
+        padding: 0.2rem; 
+        border-radius: 1.5rem;
+        right: -4rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .desktopMenuButton {
+        padding: 0.15rem; 
+        border-radius: 1rem; 
+    }
 }

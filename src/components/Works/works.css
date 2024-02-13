@@ -1,0 +1,155 @@
+#works{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+
+.workDesc{
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.worksBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.worksBar{
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background: rgb(50,50,50);
+    border-radius: 1rem;
+}
+
+.worksBarImg{
+    object-fit: cover;
+    height: 5.5rem;
+    width: -5rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+}
+
+.worksImg{
+    object-fit: cover;
+    height: 20rem;
+    justify-items: center;
+    width: -5rem;
+    margin: 0.6rem;
+}
+
+.worksBarText>p{
+    font-size: 0.75rem;
+    font-weight: 250;
+    color: rgb(174, 176, 167);
+    align-items: center;
+}
+
+.worksBarText>h2{
+    color: rgb(243, 248, 223);
+    font-size: 2rem; 
+}
+
+.worksBarText>p{
+    color: rgb(218, 219, 213);
+    font-size: 1.2rem; 
+}
+
+.btn{
+    width: 12vw;
+    background: rgb(205, 184, 184);
+}
+
+
+@media screen and (max-width: 768px) {
+    .worksTitle {
+        font-size: 2.5rem;
+    }
+    
+    .workDesc {
+        font-size: 0.9rem;
+    }
+    
+    .worksBarText>p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .worksTitle {
+        font-size: 2rem;
+    }
+    
+    .workDesc {
+        font-size: 0.8rem;
+    }
+    
+    .worksBarText>p {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .worksBarImg {
+        height: 4rem;
+        width: 4rem;
+        margin-right: 0.5rem;
+    }
+    
+    .worksImg {
+        height: 12rem;
+        width: 12rem;
+        margin: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .worksBarImg {
+        height: 3.5rem;
+        width: 3.5rem;
+        margin-right: 0.2rem;
+    }
+    
+    .worksImg {
+        height: 10rem;
+        width: 10rem;
+        margin: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        width: 20vw; /* Adjusted width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn {
+        width: 20vw; /* Adjusted width for even smaller screens */
+    }
+}
